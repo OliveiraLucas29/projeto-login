@@ -6,6 +6,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,17 +18,23 @@ main {
     margin: 20px;
     background-color: #fff;
     max-width: 750px;
-    height: max-content;
     border-radius: 1em;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+    overflow: hidden;
 }
 
 section#imagem {
+    display: block;
     background-image: url(../imagens/foto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 1em 1em 0em 0em;
+    background-position: center;
     width: 100%;
     height: 30vh;
+}
+
+#section#content {
+    display: block;
 }
 
 h1 {
@@ -105,7 +112,7 @@ input.campo::placeholder {
     border-radius: 4px;
     font-size: 1em;
     color: #153243;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 #forbtn:hover {
