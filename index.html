@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/medias.css">
+</head>
+<body>
+    <main>
+        <section id="imagem"></section>
+
+        <section id="content">
+            <h1>Login</h1>
+            <p>Bem vindo(a) novamente! Faça o login para poder acessar sua conta.</p>
+
+            <form action="" method="post">
+
+                <div class="caixa">
+                    <label for="mail"><span class="material-symbols-outlined">alternate_email</span>
+                        <input class="campo" type="email" name="mail" id="mail" required placeholder="Digite seu e-mail">
+                    </label>
+                </div>
+
+                <div class="caixa">
+                    <label for="senha">
+                        <span class="material-symbols-outlined">lock_open</span>
+                        <input class="campo" type="password" name="senha" id="senha" required minlength="8" placeholder="Digite sua senha">
+                    </label>
+                </div>
+                <div id="space"></div>
+                <div class="bt"><input id="sendbtn" type="submit" value="Entrar"></div>
+                <div class="bt"><input id="forbtn" type="button" value="Esqueci minha senha"></div>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
