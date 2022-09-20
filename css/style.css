@@ -14,10 +14,10 @@ body {
 }
 
 main {
-    background-color: #fff;
-    max-width: 580px;
-    height: 90vh;
     margin: 20px;
+    background-color: #fff;
+    max-width: 750px;
+    height: max-content;
     border-radius: 1em;
 }
 
@@ -105,6 +105,7 @@ input.campo::placeholder {
     border-radius: 4px;
     font-size: 1em;
     color: #153243;
+    margin-bottom: 30px;
 }
 
 #forbtn:hover {
