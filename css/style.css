@@ -16,7 +16,7 @@ body {
 main {
     background-color: #fff;
     max-width: 580px;
-    min-height: fit-content;
+    height: 88vh;
     margin: 20px;
     border-radius: 1em;
 }
@@ -117,7 +117,4 @@ input.campo::placeholder {
 
 .space {
     height: 15px;
-}
-.spaceplus {
-    height: 40px;
 }
