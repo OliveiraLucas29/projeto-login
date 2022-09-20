@@ -22,7 +22,7 @@ main {
 }
 
 section#imagem {
-    background-image: url(../_imagens/foto.jpg);
+    background-image: url(../imagens/foto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1em 1em 0em 0em;
